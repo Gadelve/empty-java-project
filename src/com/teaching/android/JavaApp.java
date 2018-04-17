@@ -6,25 +6,13 @@ package com.teaching.android;
 public class JavaApp {
 
     public static void main(String[] args) {
-        byte a = 2;
-        char b = 'G';
-        short c = 65;
-        int d = 100;
-        long e = 1899L;
-        float f = 18.99f;
-        double g = 77.98;
-        boolean bol= true;
 
-            System.out.println("Mi primer programa Java");
-            System.out.println(a);
-            System.out.println(b);
-            System.out.println(c);
-            System.out.println(d);
-            System.out.println(e);
-            System.out.println(f);
-            System.out.println(g);
-            System.out.println(bol);
-
-    }
-
+        System.out.println(2+5-3*2);
+        System.out.println(2*4*2/2);
+        System.out.println(1/2);
+        System.out.println(5*(1/2));
+        System.out.println(5f*1/2);
+        }
 }
+
+
