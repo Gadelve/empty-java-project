@@ -1,5 +1,6 @@
 package com.teaching.android;
 
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -8,17 +9,13 @@ import java.util.Scanner;
 public class JavaApp {
 
     public static void main(String[] args) {
+        Persona p1 = new Persona ("Paco", 100f);
+        Persona p2 = new Persona ("Pepe", 500f);
 
-        System.out.println("Introduce un número: ");
-        Scanner keyboard = new Scanner(System.in);
-        int valor = keyboard.nextInt();
+        p1.pagar(p2, 400f);
+        /* print del dinero que tienen ahora*/
 
-        if (valor%2 != 0){
-            System.out.println("El número es impar");
-        }
-        else
-            System.out.println("El número es par");
-        }
+        System.out.println("Paco tiene" + p2.getDinero());
+        System.out.println("Pepe tiene" + p1.getDinero());
+    }
 }
-
-
