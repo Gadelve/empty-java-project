@@ -15,7 +15,7 @@ public class CirculoApp {
         //MÉTODO 3 CÁLCULO DE LA CIRCUNFERENCIA
 
         c1.getCircumference();
-        System.out.println("La circunferencia del ciruclo es " + c1.getCircumference());
+        System.out.println("La circunferencia del círculo es " + c1.getCircumference());
 
         //MÉTODO 3 toString
 
