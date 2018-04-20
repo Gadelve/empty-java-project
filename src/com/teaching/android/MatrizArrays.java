@@ -1,6 +1,6 @@
 package com.teaching.android;
 
-public class PracticaArrays {
+public class MatrizArrays {
 
     public static void main(String[] args) {
         int size = 3;
