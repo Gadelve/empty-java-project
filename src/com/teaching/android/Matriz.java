@@ -13,7 +13,7 @@ public class Matriz {
 
     }
 
-    public Matriz(int[][] matriz, int size) {
+    public Matriz(int size) {
 
         matriz = new int[size][size];
         this.size = size;
@@ -21,7 +21,10 @@ public class Matriz {
 
     //MÉTODOS
 
+    //Inicializar la matriz
+
     public void asignarDatos(int[] vector) {
+        // Índice para recorrer el array de entrada
         int indice = 0;
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz.length; j++) {
